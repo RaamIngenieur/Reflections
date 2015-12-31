@@ -5,3 +5,8 @@ When a repository is initialised, a .git folder containing the meta data of the 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Staging area contains the group of files to be commited together. It helps in commiting multiple files into same commit. Working directory contains the files in the repository. It might also contain other files untracked by the repository. Repository is the set of files tracked by git.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Staging area is useful to seperate files for different logical changes. Different set of files might make up a logical change. with staging area one can just choose the files corresponding to a logical change to be commited.
+
