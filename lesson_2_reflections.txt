@@ -17,3 +17,7 @@ Branches will be useful when multiple versions of a program is developed from sa
 How do the diagrams help you visualize the branch structure?
 
 Diagram visually shows how each of the commits are realted to previous ones, and which commits are tracked by each branch. It also identifies any untracked commits which cannot be checked out in case the commit id is not noted.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches creates files which include the changes made in both the branches. It is represented in the diagram indicating that the most recent commit of each branch is the parent for the new commit merged branch.
