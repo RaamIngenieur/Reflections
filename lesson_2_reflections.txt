@@ -10,3 +10,10 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 Staging area is useful to seperate files for different logical changes. Different set of files might make up a logical change. with staging area one can just choose the files corresponding to a logical change to be commited.
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches will be useful when multiple versions of a program is developed from same base version. It would be more logical and sensible than reverting back to previous versions and starting the development again when a new version of program needs to be developed. Logically all the new versions are an increment from the base version rather than from each other. This topology is achieved by git branch.
+
+How do the diagrams help you visualize the branch structure?
+
+Diagram visually shows how each of the commits are realted to previous ones, and which commits are tracked by each branch. It also identifies any untracked commits which cannot be checked out in case the commit id is not noted.
