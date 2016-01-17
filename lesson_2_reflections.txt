@@ -21,3 +21,11 @@ Diagram visually shows how each of the commits are realted to previous ones, and
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 Merging two branches creates files which include the changes made in both the branches. It is represented in the diagram indicating that the most recent commit of each branch is the parent for the new commit merged branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros of Git automatic merging:
+It incorporates the changes done in both the branches without the need for going through both the codes
+Cons of Git automatic merging:
+Sometimes it might result in a non functional code
+It doesn't work when the changes are made to same part of the code
